@@ -1,0 +1,108 @@
+
+/*------------------------
+Project             : ComTech - Computer & Repair Shop Business HTML Template
+Version             : 1.0
+Author              : Thesoftking
+
+** [Table of contents]  ** 
+--------------------------
+@typography
+--------------------------
+Global css
+--------------------------
+Preloader Css
+--------------------------
+Normalize
+--------------------------
+support bar area start
+--------------------------
+Navbar Area
+--------------------------
+Hero Area Area Start
+--------------------------
+Why Chooseus  Area Start
+--------------------------
+About Area Start
+--------------------------
+Service Area Start
+--------------------------
+Counter Area Start
+--------------------------
+Team Area Start
+--------------------------
+Video Area Css Start
+--------------------------
+Blog Area  Start
+--------------------------
+Footer Area  Start
+--------------------------
+Copyright Area Start
+--------------------------
+Appoinment Area Start
+--------------------------
+About Page Css Start
+--------------------------
+Team Area Start
+--------------------------
+Team Details Page Start
+--------------------------
+Faq Page Start 
+--------------------------
+Shop Page Css Start
+--------------------------
+Conditions Page Start
+--------------------------
+Product Details  Page  Start
+--------------------------
+Blog Page Start
+--------------------------
+Blog Details Page Start
+--------------------------
+404 Page Css Start
+--------------------------
+Cart Page Css Start
+--------------------------
+Contact Page Css Start
+--------------------------
+--------------------------
+
+-----------------*/
+
+
+//=Main scss
+@import "main/_variables";
+@import "main/_mixins";
+@import "main/_global";
+@import "main/_normalize";
+
+
+//=Section scss
+@import "sections/_support_bar";
+@import "sections/_navbar";
+@import "sections/_hero-area";
+@import "sections/_whychooseus";
+@import "sections/_about";
+@import "sections/_service";
+@import "sections/_counter";
+@import "sections/_team";
+@import "sections/_video";
+@import "sections/_blog";
+@import "sections/_footer";
+@import "sections/_appoinment";
+
+
+//=Pages scss
+@import "pages/_about";
+@import "pages/_team";
+@import "pages/_team-details";
+@import "pages/_faq";
+@import "pages/_shop";
+@import "pages/_conditions";
+@import "pages/_product-details";
+@import "pages/_blog";
+@import "pages/_blog-details";
+@import "pages/_404";
+@import "pages/_cart";
+@import "pages/_contact";
+
+

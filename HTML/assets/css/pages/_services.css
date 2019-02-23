@@ -1,0 +1,10 @@
+/*----------------------
+    Services  Page
+-----------------------*/
+.pricing-area {
+  position: relative;
+  z-index: 0;
+  overflow: hidden; }
+  .pricing-area .pricing area-bg {
+    background: url(../img/bg/vector.png) repeat;
+    background-position: center; }

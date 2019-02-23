@@ -1,0 +1,48 @@
+
+//== Template Main Color
+$base-color: #ee2d50;
+$title-color: #232323;
+$body-color: #383838;
+$bgdark-color: #181818;
+$white: #fff;
+$darkwhite: #fbfbfb;
+$dark2white: #ececec;
+$sectionbg: #f3f3f3;
+$appoinmentplaceholder: #505050;
+
+
+// Social Media Color
+// Social Media Color
+
+$fb: #3b5999;
+$tw: #55acee;
+$drib: #ea4c89;
+$pin: #bd081c;
+$linkedin: #0077B5;
+$google: #DB4437;
+$insta: #e4405f;
+
+
+
+/*-----------------
+    @Typography
+-----------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700|Raleway:100,300,400,500,600,700,800');
+$body-font: 'Raleway', sans-serif;
+$heading-font:'Montserrat', sans-serif;
+$base-font-size: 16px !default;
+$font-size-h1: 60px !default;
+$font-size-h2: 52px !default;
+$font-size-h3: 32px !default;
+$font-size-h4: 24px !default;
+//** Unit-less `line-height` for use in components like buttons.
+$line-height: 1.6 !default; // 24/15
+// border-radius
+$border-radius-5: 5px !default;
+$border-radius-25: 25px !default;
+$border-radius-3: 3px !default;
+$border-radius-circle: 50% !default;
+//  transition
+$transition: all .3s ease-in;
+$transition-long: all .5s ease-in;

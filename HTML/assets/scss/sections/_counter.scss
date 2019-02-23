@@ -1,0 +1,51 @@
+/*---------------------------
+Counter Area Start
+---------------------------*/
+
+
+.countersection{
+  background: url(../img/counter/counter.jpg);
+  @include  background-image(fixed);
+  position: relative;
+  padding: 116px 0px 100px;
+  .overlay{
+    @include section-overlay();
+  }
+  .counter-box{
+    i{
+      font-size: 100px;
+      line-height: 110px;
+      color: $white;
+    }
+    h2{
+      color: $white;
+      font-size: 50px;
+      line-height: 60px;
+      color: $base-color;
+      font-weight: 800;
+      margin-top: 11px;
+      margin-bottom: 10px;
+    }
+    p{
+      color: $white;
+      font-size: 24px;
+      line-height: 34px;
+      font-weight: 600;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------
+Counter Area End
+---------------------------*/
