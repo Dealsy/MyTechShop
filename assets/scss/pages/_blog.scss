@@ -1,0 +1,46 @@
+/*---------------------------
+Blog Page Start
+---------------------------*/
+
+.blog-page{
+  padding: 120px 0px 120px;
+  .blog-card{
+    margin-bottom: 30px;
+  }
+  .pagination{
+    .page-item{
+      .page-link{
+        width: 30px;
+        height: 30px;
+        border: 1px solid rgba(#000, .25);
+        text-align: center;
+        line-height: 10px;
+        color: $title-color;
+        font-size: 14px;
+        margin: 0px 4px 0px;
+        border-radius: 3px;
+        @include transition();
+        &.active,
+        &:hover
+        {
+          background: $base-color;
+          border-color: $base-color;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------------
+Blog Page End
+---------------------------*/

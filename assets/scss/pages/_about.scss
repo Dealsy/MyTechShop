@@ -1,0 +1,63 @@
+/*=========================
+About Page Css Start
+============================*/
+
+.breadcrumb{
+  background: url(../img/breadcrumb.jpg);
+  @include background-image();
+  padding: 217px 0px 142px;
+  position: relative;
+  &.extra-padding{
+    padding-bottom: 146px;
+  }
+  .overlay{
+    @include section-overlay();
+  }
+  .title{
+    color: $white;
+    font-size: 50px;
+    line-height: 66px;
+    font-weight: 700;
+    &.extra-padding{
+      padding-bottom: 15px;
+    }
+  }
+  .links{
+    li{
+      display: inline-block;
+      a{
+        color: $dark2white;
+        font-size: 18px;
+        line-height: 28px;
+        @include transition();
+        &:hover, &.active{
+          color: $base-color;
+        }
+      }
+      i{
+        color: $white;
+        display: inline-block;
+        padding: 0px 5px;
+      }
+    }
+  }
+}
+
+.about-page{
+  padding-top: 119px;
+}
+
+.about-page-team{
+  background: $sectionbg;
+}
+.about-page-service{
+  background: $white;
+  .s-box{
+    background: $sectionbg;
+  }
+}
+
+
+/*=========================
+About Page Css End
+============================*/

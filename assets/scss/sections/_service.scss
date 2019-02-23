@@ -1,0 +1,81 @@
+/*---------------------------
+Service Area Start
+---------------------------*/
+.service{
+  background: $sectionbg;
+  padding: 113px 0px 120px;
+
+  .s-box{
+    text-align: center;
+    background: $white;
+    padding: 16px 20px 10px;
+    position: relative;
+    .content{
+      position: inherit;
+      z-index: 9;
+    }
+    &::before {
+      position: absolute;
+      display: block;
+      content: '';
+      width: 0%;
+      height: 0%;
+      border-top: 5px solid $base-color;
+      border-left: 5px solid $base-color;
+      left:0px;
+      top: 0px;
+      opacity: 0;
+      -webkit-transition: all .5s ease-in-out;
+      -moz-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    &::after {
+      position: absolute;
+      display: block;
+      content: '';
+      width: 0%;
+      height: 0%;
+      border-bottom: 5px solid $base-color;
+      border-right: 5px solid $base-color;
+      right:0px;
+      bottom: 0px;
+      opacity: 0;
+      -webkit-transition: all .5s ease-in-out;
+      -moz-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    &:hover::after,
+    &:hover::before{
+      width: 50%;
+      height: 50%;
+      opacity: 1;
+    }
+    i{
+      font-size: 60px;
+      color: $base-color;
+    }
+    h4{
+      font-size: 24px;
+      line-height: 34px;
+      color: $title-color;
+      font-weight: 700;
+      margin-bottom: 15px;
+      margin-top: 6px;
+    }
+    p{
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+}
+
+
+
+
+/*---------------------------
+Service Area End
+---------------------------*/

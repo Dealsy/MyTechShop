@@ -1,0 +1,15 @@
+/*---------------------------
+Product Details Page Start
+---------------------------*/
+.product-details {
+  padding: 120px 0px 120px; }
+  .product-details .left-slider .thumb {
+    display: inline-block;
+    float: left; }
+  .product-details .left-slider .main-images {
+    display: inline-block;
+    float: left; }
+
+/*---------------------------
+Product Details Page End
+---------------------------*/

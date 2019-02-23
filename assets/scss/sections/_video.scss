@@ -1,0 +1,151 @@
+/*---------------------------
+Video Area Css Start
+---------------------------*/
+
+
+
+
+.video-and-review{
+  position: relative;
+  &::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: $sectionbg;
+    z-index: 0;
+  }
+  &::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background: rgba($bgdark-color, .7);
+    z-index: 1;
+  }
+  .image{
+    background-image: url(../img/testimonial/testimonialbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .videowrapper {
+      position: inherit;
+      z-index: 9;
+      width: 100%;
+      height: 100%;
+      display: block;
+      .video {
+        text-align: center;
+        margin-top: 6px;
+        a{
+          i{
+            width: 90px;
+            height: 90px;
+            font-size: 26px;
+            color: $white;
+            background: $base-color;
+            text-align: center;
+            line-height: 94px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            @include transition();
+            &:hover{
+              background: $white;
+              color: $base-color;
+            }
+          }
+        }
+        p{
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 28px;
+          color: $white;
+          text-transform: uppercase;
+          margin-bottom: 0px;
+        }
+        h5{
+          font-size: 30px;
+          line-height: 40px;
+          color: $white;
+          font-weight: 700;
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+ 
+  
+  .review{
+    padding: 111px 0px 120px;
+    position: inherit;
+    width: 479px;
+    margin-left: 60px;
+    z-index: 9;
+    .section-title{
+      margin-bottom: 57px;
+      .title{
+        font-size: 50px;
+        line-height: 60px;
+        color: $title-color;
+        text-transform: capitalize;
+        font-weight: 700;
+      }
+    }
+    .review-box{
+      background: $white;
+      padding: 19px 25px 11px;
+      border-bottom: 5px solid $base-color;
+      .client-media{
+        display: flex;
+        .left {
+          img{
+            margin-right: 20px;
+            border-radius: 50%;
+          }
+        }
+        .right{
+          h5{
+            font-size: 18px;
+            line-height: 28px;
+            color: $title-color;
+            margin-bottom: 0px;
+          }
+          p{
+            font-size: 14px;
+            line-height: 24px;
+            color: $body-color;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+    .owl-carousel .owl-item img {
+      display: inline-block;
+      width: auto;
+      max-width: auto;
+  }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------
+Video Area Css Start
+---------------------------*/
+
